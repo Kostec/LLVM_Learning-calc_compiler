@@ -11,4 +11,7 @@ Project for LLVM learning
 ## to test
 1. copy all files from tools to target build directory
 2. set correct llc path into _test_prepare.bat
-3. set correct compiler path into
+3. set correct compiler path into _test_compile.bat
+4. run VS Developer Commnand Toll
+5. call _test_prepare.bat to create .obj file
+6. call _test_compile.bat to compile executable file
