@@ -1,0 +1,1 @@
+cmake -G "Visual Studio 17 2022" -B .\build -DLLVM_DIR=D:\Projects\LLVM\llvm_17\build\lib\cmake\llvm -DLLVM_BUILD_TYPE=Debug
