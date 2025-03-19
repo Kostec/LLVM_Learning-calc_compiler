@@ -1,1 +1,2 @@
-cmake -G "Visual Studio 17 2022" -B .\build -DLLVM_DIR=D:\Projects\LLVM\llvm_17\build\lib\cmake\llvm -DLLVM_BUILD_TYPE=Debug
+REM cmake -G "Visual Studio 17 2022" -B .\build -DLLVM_DIR=D:\Projects\LLVM\llvm_17\build\lib\cmake\llvm -DLLVM_BUILD_TYPE=Debug -DANTLR_INCLUDE_DIR=D:\Projects\LLVM\Learning\antlr4-cpp-runtime-4.13.2-source\runtime\src
+cmake -G "Visual Studio 17 2022" -B .\build -DLLVM_DIR=D:\Projects\LLVM\llvm_17\build\lib\cmake\llvm -DANTLR_DIR=D:\Projects\LLVM\Learning\antlr4-cpp-runtime-4.13.2-source\cmake -DANTLR_INCLUDE_DIR=D:\Projects\LLVM\Learning\antlr4-cpp-runtime-4.13.2-source\runtime\src

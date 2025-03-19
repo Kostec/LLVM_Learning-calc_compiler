@@ -1,0 +1,11 @@
+Nondigit=1
+Digit=2
+Minus=3
+Plus=4
+Star=5
+Slash=6
+With=7
+'-'=3
+'+'=4
+'*'=5
+'/'=6

@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [        
+        {
+            "name": "Debug Current Grammar",
+            "type": "antlr-debug",
+            "request": "launch",
+            "input": "test_files/test.myLan",
+            "grammar": "./calc_antlr.g4",
+            "actionFile": "exampleActions.js",
+            // "startRule": "compilationUnit",
+            "printParseTree": true,
+            "visualParseTree": true
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+calc.exe "with a, b: 4 + (3 + b);" | "${LLVM_TOOLS_BINARY_DIR}\llc.exe" -filetype=obj -o=expr.obj

@@ -116,5 +116,6 @@ void CodeGen::compile(AST* tree)
     std::error_code error;
     llvm::raw_fd_ostream fileStream("calc.ll", error);
     module->print(outs(), nullptr);
+    module->print(fileStream, nullptr);
     //module->dump();
 }
